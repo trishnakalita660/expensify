@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM, { render } from 'react-dom';
 import 'normalize.css/normalize.css';
+ 
 import './styles/styles.scss'
 
 class App extends React.Component{
@@ -13,4 +14,4 @@ class App extends React.Component{
     }
 }
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render( <App />  , document.getElementById('app'));
